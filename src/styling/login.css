@@ -1,0 +1,62 @@
+/* .bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+    opacity: 0.3;
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+
+.row{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+.style{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    
+
+} */
+/* .container.image{
+    max-width: fit-content;
+    grid-area:auto;} */
+
+    .container{
+        /* The image used */
+        background-image: url("https://images.immediate.co.uk/production/volatile/sites/4/2018/07/GettyImages-160600997-24457d2.jpg?quality=90&resize=940,400");
+    
+        /* Full height */
+        height: 50%; 
+    
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        /* /background-size: cover; */
+    }
+    .h1{
+        text-align: center;
+    }
