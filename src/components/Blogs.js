@@ -65,6 +65,8 @@ const Blogs = () => {
       </form>
 
       <div>
+
+        
        
         {blogSearchResult.map((result, index) => {
 

@@ -15,8 +15,8 @@ const Navbar = () => {
         <Bars />
   
         <NavMenu>
-          <NavLink to='/about' activeStyle>
-            About
+          <NavLink to='/BMI' activeStyle>
+            Calculate your BMI
           </NavLink>
 
          {/*} <NavLink to='/ExerciseList' activeStyle>

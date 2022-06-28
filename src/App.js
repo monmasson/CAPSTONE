@@ -9,6 +9,7 @@ import Login from './components/Login';
 import Navbar from './components/Navbar/Navbar';
 import Blogs from './components/Blogs';
 import Home from './components/Home';
+import BMI from './components/BMI';
 
 
 
@@ -21,6 +22,7 @@ function App() {
      <Route path="/" element={<Home/>}/>
      <Route path="/login" element={<Login/>}/>
      <Route path='/blogs' element={<Blogs/>} />
+     <Route path ='/BMI' element ={<BMI/>}/>
      
       
      <Route path="/exercise" element={<ExercisesList/>}/>
