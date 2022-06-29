@@ -13,7 +13,7 @@ const BMI  = () => {
       return;
     }
     const bmi = (mass/ ((height * height) 
-    / 10000)).toFixed(2);
+    / 10000)).toFixed(2); //toFixed() converts a number to a string, rounded to a specified number of decimals
     setBmi(bmi);
     
   };
